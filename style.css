@@ -14,10 +14,12 @@
 
 body {
     font-family: 'Open Sans';
-    background-image: url(img/bg-mobile.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(img/bg-desktop.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
     background-color: var(--Violet);
+    background-position: center;
 }
 
 .container {
